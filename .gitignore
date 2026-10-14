@@ -1,0 +1,42 @@
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+
+# Caché y archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Herramientas de desarrollo y testing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editores e IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Resultados generados durante las ejecuciones
+results/*
+!results/.gitkeep
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
